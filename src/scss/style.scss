@@ -1,0 +1,11 @@
+@import 'reset';
+@import 'config';
+
+
+body{
+    background-color: $gray-main;
+    color: $white-main;
+    margin: 100px;
+    padding: 100px;
+
+}

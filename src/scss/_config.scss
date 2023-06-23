@@ -1,0 +1,28 @@
+/* COLOR PAIRS */
+
+$gray-main: hsl(240, 56%, 9%);
+$gray-secondary: hsl(240, 21%, 21%);
+$white-main: hsl(0, 0%, 100%);
+$white-secondary: hsl(240, 5%, 88%);
+
+
+/* ACCENT COLORS */
+
+$dark-blue: hsl(224, 100%, 34%);
+$blue: hsl(212, 100%, 80%);
+$yellow: hsl(44, 87%, 57%);
+$dark-purple: hsl(272, 99%, 33%);
+
+
+/* CUSTOMIZATIONs */
+
+
+p, h1, h2, h3, h4, h5, h6{
+    font-family:'VT323', monospace;
+}
+
+
+.place-content-center{
+    display: grid;
+    place-content: center;
+}
