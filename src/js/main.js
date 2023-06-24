@@ -1,5 +1,5 @@
   // ******************************* //
- // **QUIZ QUESTIONS AND ANSWERS ** //
+ // **QUIZ QUESTIONS AND ANSWERS*** //
 // ******************************* //
 
 const quizData = [
@@ -105,7 +105,9 @@ const quizData = [
       "2": "Data Engineer",
       "3": "UI/UX Developer",
       // Add more result mappings here...
-    };
+    }
+    
+    ;
   
     // Calculate the most frequent answer index
     const answerCounts = answers.reduce((acc, answer) => {

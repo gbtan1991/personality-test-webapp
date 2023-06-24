@@ -10,15 +10,16 @@ $white-secondary: hsl(240, 5%, 88%);
 
 $dark-blue: hsl(224, 100%, 34%);
 $blue: hsl(212, 100%, 80%);
-$yellow: hsl(44, 87%, 57%);
+$yellow1: hsl(43, 99%, 65%);
+$yellow2: hsl(36, 100%, 60%);
 $dark-purple: hsl(272, 99%, 33%);
 
 
 /* CUSTOMIZATIONs */
 
 
-p, h1, h2, h3, h4, h5, h6{
-    font-family:'VT323', monospace;
+*{
+    font-family:'Roboto Mono', monospace;
 }
 
 
@@ -26,3 +27,4 @@ p, h1, h2, h3, h4, h5, h6{
     display: grid;
     place-content: center;
 }
+

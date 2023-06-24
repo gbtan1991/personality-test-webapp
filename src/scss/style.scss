@@ -5,7 +5,59 @@
 body{
     background-color: $gray-main;
     color: $white-main;
-    margin: 100px;
-    padding: 100px;
-
+    height: 100vh;
 }
+
+
+.container{
+    
+    .header{
+        text-align: center;
+
+        h1{
+            font-size: 48px;
+        }
+
+
+
+    }
+
+
+    #question{
+        font-size: 28px;
+    }
+
+    .option{
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        border-radius: 5px;
+        width: 100%;
+        padding: 12px;
+        color: $gray-main!important;
+        background: linear-gradient($yellow1, $yellow2);
+        border: 1px solid $yellow1;    
+        cursor: pointer;
+       
+        &:hover{
+            background: $yellow1;
+        }
+        
+
+        
+    }
+
+
+    #result{
+        font-size: 48px;
+        color: $yellow2;
+        text-align: center;
+        font-weight: 700;
+    }
+
+
+    
+}
+
+
+
